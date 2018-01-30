@@ -1,0 +1,23 @@
+{
+  "name": "imob",
+  "version": "1.0.0",
+  "description": "An identity and trust relationship management on blockchain for IoT",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/zeqing-guo/imob",
+  "keywords": [
+    "blockchain",
+    "identity management",
+    "trust relationship",
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "dependencies": {
+    "web3": "~1.0.0"
+  },
+  "devDependencies": {
+    "electron": "~1.7.8"
+  }
+}

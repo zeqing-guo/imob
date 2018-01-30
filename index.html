@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>登入</title>
+  </head>
+  <body>
+    <h1>登入</h1>
+    您的区块链id是：<script>document.write(coinbase)</script>
+    <form>
+      <div class="form-group">
+        <label for="pwd">密码</label>
+        <input type="password" class="form-control" id="pwd" placeholder="输入密码" name="pwd">
+      </div>
+      <div class="form-group">
+        <label for="touch-id">指纹</label>
+        <input type="text" class="form-control" id="touch-id" placeholder="输入指纹" name="touch-id">
+      </div>
+      <button type="submit" class="btn btn-default">Submit</button>
+    </form>
+    <script>
+      // You can also require other files to run in this process
+      require('./renderer.js')
+      require('./js/ethereum.js')
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </script>
+  </body>
+</html>
